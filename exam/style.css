@@ -1,0 +1,189 @@
+.nav {
+  width: 1000px;
+  height: 110px;
+  border-bottom: solid 5px black;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title > img {
+  background-color: rgb(42, 210, 210);
+  height: 55px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-input {
+  width: 500px;
+  height: 20px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: white;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.cart {
+  height: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  float: right;
+  margin-left: 10px;
+}
+
+.text {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(42, 210, 210);
+  color: white;
+  text-align: center;
+  font-size: x-large;
+}
+
+.box1 > img {
+  height: 300px;
+  width: 300px;
+  border-radius: 0px;
+}
+
+.aloeimg > img {
+  height: 150px;
+}
+
+.text2 {
+  width: 300px;
+  height: 70px;
+  background-color: rgb(42, 210, 210);
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 5px;
+}
+
+.aloeimg > img {
+  border-radius: 0px;
+  width: 300px;
+  height: 240px;
+}
+
+.top-container {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.discover {
+  display: flex;
+  margin-right: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.aloe {
+  margin-top: 50px;
+}
+
+.bottomcontainer {
+  width: 1000px;
+  height: 200px;
+  display: flex;
+  background-color: rgb(186, 241, 241);
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.box > img {
+  border-radius: 80px;
+  height: 140px;
+  width: 140px;
+}
+
+.box {
+  text-align: center;
+}
+
+h3 {
+  margin-top: 50px;
+}
+
+.text2 > img {
+  height: 20px;
+}
+.alertbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#alert {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  border: solid black 2px;
+  position: absolute;
+  width: 1000px;
+  height: 60px;
+}
+
+#alert img {
+  width: 50px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+#alert p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#policylink {
+  text-decoration: underline;
+  color: blue;
+}
+
+.acceptbtn {
+  background-color: teal;
+  color: white;
+  box-shadow: 5px 5px 5px black;
+  border: solid black 2px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.text > img {
+  margin-top: 20px;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow2 {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow2 > img {
+  width: 30px;
+}

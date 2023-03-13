@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="header">
+        <div class="title">
+          <img src="img/leaf.png" alt="logo" />
+          <h1>Easy Bay</h1>
+        </div>
+        <input
+          class="search-input"
+          type="text"
+          placeholder="Search for anything"
+        />
+        <button class="btn">Sign In</button>
+        <input
+          class="cart"
+          type="image"
+          src="img/cart-dark.png"
+          alt="cart-dark"
+          onclick="alert('Cart is Empty')"
+        />
+      </div>
+      <div class="links">
+        <a href="#">Aeonium</a>
+        <a href="#">Andormischus</a>
+        <a href="#">Agave</a>
+        <a href="#">Aloe</a>
+        <a href="#">Anacampseros</a>
+        <a href="#">Aristaloe</a>
+        <a href="#">More..</a>
+      </div>
+    </div>
+
+    <!--THIS IS FOR THE TOP RIGHT AND BOTTOM ELEMTNS-->
+    <div class="maincontainer">
+      <div class="top-container">
+        <div class="discover">
+          <div class="text">
+            <h3>
+              Discover succulent <br />
+              varieties one pot or <br />
+              rack at a time <br />
+            </h3>
+            <div class="arrow">
+              <p>Discover</p>
+              <img src="img/arrow-light.png" alt="arrow" />
+            </div>
+          </div>
+          <div class="box1">
+            <img
+              src="img/succulents-1.jpg"
+              alt="succulents"
+              onmouseover="changeImage(this)"
+              onmouseout="changeImage(this)"
+            />
+          </div>
+        </div>
+
+        <div class="aloe">
+          <div class="aloeimg">
+            <img src="img/aloe-m.jpg" alt="aloe" />
+          </div>
+          <div class="text2">
+            <div class="arrow2">
+              <p>Soothing Aloe</p>
+              <img src="img/arrow-light.png" alt="arrow" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="alertbox"></div>
+      <div class="bottomcontainer">
+        <div class="box">
+          <img src="img/aeonium-s.jpg" alt="aeonium-s" />
+          <p>Aeonium</p>
+        </div>
+        <div class="box">
+          <img src="img/aloe-s.jpg" alt="aloe-s" />
+          <p>Aloe</p>
+        </div>
+        <div class="box">
+          <img src="img/cactus-s.jpg" alt="cactus-s" />
+          <p>Cactus</p>
+        </div>
+        <div class="box">
+          <img src="img/echeveria-s.jpg" alt="echeveria-s" />
+          <p>Echeveria</p>
+        </div>
+        <div class="box">
+          <img src="img/sedum-s.jpg" alt="sedum-s" />
+          <p>Sedum</p>
+        </div>
+        <div class="box">
+          <img src="img/sempervivum-s.jpg" alt="sempervivum-s" />
+          <p>Sempervivum</p>
+        </div>
+      </div>
+      <div class="alertbox">
+        <div id="alert">
+          <img src="img/alert-dark.png" alt="alert" />
+          <p>
+            This site makes use of third-party cookies, by clicking "I accept"
+            <br />you agree to the terms outlined in our
+            <a id="policylink" href="#">cookie policy</a>
+          </p>
+          <button onclick="hide()" class="acceptbtn">I Accept</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
